@@ -11,12 +11,7 @@ import { CardsModule } from '@elewa-group/features/components/cards';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [
-    BrowserModule, 
-    ScullyLibModule,
-    HomePageModule,
-    CardsModule
-  ],
+  imports: [BrowserModule, ScullyLibModule, HomePageModule, CardsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
