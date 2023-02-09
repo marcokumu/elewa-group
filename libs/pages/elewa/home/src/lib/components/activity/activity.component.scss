@@ -1,0 +1,43 @@
+// @import './apps/elewa-group-website/src/_variables.scss';
+
+.col {
+  margin-top: 0%;
+  padding-left: 50px;
+  background: var(--elewa-group-website-color);
+}
+.card-collection-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 15px;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 50px;
+  height: fit-content;
+  width: fit-content;
+
+}
+
+.activity-card {
+  grid-column: span 1;
+  padding-top: 20px;
+  font-family: var( --elewa-group-website-dmsans-regular);
+  background: var(--elewa-group-website-color-card);
+  border-radius: 20px;
+}
+
+.heading {
+  font-family: var(--elewa-group-website-dmsans-medium);
+  font-size: var(--elewa-group-website-font-size-heading);
+  font-weight: var(--elewa-group-website-font-weight-subtitle);
+  width: 45%;
+  margin-left: 70px;
+  margin-top: 8%;
+}
+.sub-heading {
+  font-family: var(--elewa-group-website-dmsans-regular);
+  font-size: var(--elewa-group-website-font-size-heading-medium);
+  width: 40%;
+  margin-left: 70px;
+  margin-top: 1px;
+}
