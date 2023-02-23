@@ -22,6 +22,7 @@ import { NextDirective } from './directives/next.directive';
 import { PrevDirective } from './directives/prev.directive';
 import { AboutUsRoutingModule } from './about-us.routing';
 import { AboutUsHistoryCarouselComponent } from './components/about-us-history-carousel/about-us-history-carousel.component';
+ import { AboutUsFooterSectionComponent } from './components/about-us-footer-section/about-us-footer-section.component';
 
 @NgModule({
   imports: [
@@ -30,7 +31,7 @@ import { AboutUsHistoryCarouselComponent } from './components/about-us-history-c
     CommonModule,
     LayoutModule,
     AboutUsRoutingModule,
-    UiListsModule
+    UiListsModule,
   ],
 
   declarations: [
@@ -40,11 +41,9 @@ import { AboutUsHistoryCarouselComponent } from './components/about-us-history-c
     AboutUsCultureComponent,
     AboutUsPageComponent,
     AboutUsHistoryCarouselComponent,
-    ElewaAboutUsLocationSectionComponent
+    ElewaAboutUsLocationSectionComponent,
+    AboutUsFooterSectionComponent,
   ],
-  exports: [
-    TeamMembersCarouselComponent,
-    ElewaAboutUsLocationSectionComponent
-  ],
+  exports: [TeamMembersCarouselComponent, ElewaAboutUsLocationSectionComponent],
 })
 export class AboutUsModule {}
